@@ -1,0 +1,47 @@
+.selectionUI {
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+  float: left;
+  border: 2px solid black;
+  position: relative;
+  line-height: 100px;
+}
+.selectionLabel {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+}
+.selectionButton {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  appearance: none;
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.blockBuilderContainer {
+  border: 1px solid black;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+.blockBuilderContainer > select {
+  height: 2em;
+  line-height: 2em;
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  padding-right: 30px;
+}
+.outputContainer {
+  overflow-x: scroll;
+  border: #00000080 1px solid;
+  padding: 5px;
+}
+.outputContainer > code {
+  white-space: nowrap;
+  font-family: monospace;
+}
